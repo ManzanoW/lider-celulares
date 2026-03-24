@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "Líder Celulares",
     images: [
       {
-        url: "/og-image.jpg", // salva a foto da fachada como /public/og-image.jpg
+        url: "https://lider-celulares.vercel.app/og-image.jpg", // salva a foto da fachada como /public/og-image.jpg
         width: 1200,
         height: 630,
         alt: "Fachada da Líder Celulares — Assistência Técnica em Santos/SP",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "Líder Celulares | Assistência Técnica em Santos/SP",
     description:
       "Conserto rápido e garantido de celulares e tablets em Santos/SP.",
-    images: ["/og-image.jpg"],
+    images: ["https://lider-celulares.vercel.app/og-image.jpg"],
   },
   robots: {
     index: true,
