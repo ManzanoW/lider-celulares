@@ -114,14 +114,14 @@ export function Contact() {
           <div className="overflow-hidden rounded-2xl border border-slate-800 shadow-xl shadow-black/40">
             <iframe
               title="Localização Líder Celulares"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.2844615603362!2d-46.297956423768966!3d-23.985730077321787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce037dfa671337%3A0xccac461ed6138897!2sLIDER%20CONSERTO%20DE%20CELULAR%20E%20SMARTPHONES!5e0!3m2!1spt-BR!2sbr!4v1774328168496!5m2!1spt-BR!2sbr"
+              src="https://maps.google.com/maps?q=Lider+Conserto+de+Celular+e+Smartphones,+Pça.+ALM.+Gago+Coutinho,+30,+Santos,+SP&output=embed&hl=pt-BR&z=16"
               width="100%"
-              height="360"
+              height="300"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              className="grayscale hover:grayscale-0 transition-all duration-700 opacity-80 hover:opacity-100"
+              className="grayscale hover:grayscale-0 transition-all duration-700 opacity-80 hover:opacity-100 h-65 md:h-90"
             />
           </div>
 
