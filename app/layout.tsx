@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Líder Celulares" }],
   creator: "Líder Celulares",
-  metadataBase: new URL("https://lidercelulares.com.br"),
+  metadataBase: new URL("https://lider-celulares.vercel.app"),
   alternates: {
     canonical: "/",
   },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: "Líder Celulares | Assistência Técnica Autorizada em Santos/SP",
     description:
       "Conserto rápido e garantido de celulares e tablets em Santos/SP. 4.9★ com mais de 414 avaliações no Google.",
-    url: "https://lidercelulares.com.br",
+    url: "https://lider-celulares.vercel.app",
     siteName: "Líder Celulares",
     images: [
       {
@@ -66,7 +66,7 @@ const jsonLd = {
   alternateName: "Lider Conserto de Celular e Smartphones",
   description:
     "Assistência técnica autorizada de celulares, tablets e iPads em Santos/SP. Samsung, Motorola, Xiaomi, Asus, LG e Apple.",
-  image: "https://lidercelulares.com.br/og-image.jpg",
+  image: "https://lider-celulares.vercel.app/og-image.jpg",
   telephone: "+5513974208788",
   aggregateRating: {
     "@type": "AggregateRating",
@@ -94,8 +94,11 @@ const jsonLd = {
       closes: "19:00",
     },
   ],
-  url: "https://lidercelulares.com.br",
-  sameAs: ["https://maps.google.com/?q=Lider+Celulares+Santos"],
+  url: "https://lider-celulares.vercel.app",
+  sameAs: [
+    "https://maps.google.com/?q=Lider+Celulares+Santos",
+    "https://lider-celulares.vercel.app",
+  ],
 };
 
 export default function RootLayout({
