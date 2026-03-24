@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const OG_IMAGE =
-  "https://res.cloudinary.com/dezfd9sl8/image/upload/f_jpg,q_80,w_1200,h_630,c_fill/lider-fachada_cmbkza";
+  "https://res.cloudinary.com/dezfd9sl8/image/upload/v1774369005/lider-fachada_cmbkza.jpg";
 
 export const metadata: Metadata = {
   title: "Líder Celulares | Assistência Técnica Autorizada em Santos/SP",
