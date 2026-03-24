@@ -2,6 +2,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const OG_IMAGE =
+  "https://res.cloudinary.com/dezfd9sl8/image/upload/f_jpg,q_80,w_1200,h_630,c_fill/lider-fachada_cmbkza";
+
 export const metadata: Metadata = {
   title: "Líder Celulares | Assistência Técnica Autorizada em Santos/SP",
   description:
@@ -32,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Líder Celulares",
     images: [
       {
-        url: "https://res.cloudinary.com/dezfd9sl8/image/upload/f_auto,q_auto/lider-fachada_cmbkza", // salva a foto da fachada como /public/og-image.jpg
+        url: OG_IMAGE, // salva a foto da fachada como /public/og-image.jpg
         width: 1200,
         height: 630,
         alt: "Fachada da Líder Celulares — Assistência Técnica em Santos/SP",
@@ -46,9 +49,7 @@ export const metadata: Metadata = {
     title: "Líder Celulares | Assistência Técnica em Santos/SP",
     description:
       "Conserto rápido e garantido de celulares e tablets em Santos/SP.",
-    images: [
-      "https://res.cloudinary.com/dezfd9sl8/image/upload/f_auto,q_auto/lider-fachada_cmbkza",
-    ],
+    images: [OG_IMAGE],
   },
   robots: {
     index: true,
@@ -68,8 +69,7 @@ const jsonLd = {
   alternateName: "Lider Conserto de Celular e Smartphones",
   description:
     "Assistência técnica autorizada de celulares, tablets e iPads em Santos/SP. Samsung, Motorola, Xiaomi, Asus, LG e Apple.",
-  image:
-    "https://res.cloudinary.com/dezfd9sl8/image/upload/f_auto,q_auto/lider-fachada_cmbkza",
+  image: OG_IMAGE,
   telephone: "+5513974208788",
   aggregateRating: {
     "@type": "AggregateRating",
