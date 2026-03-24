@@ -35,7 +35,7 @@ export function Hero() {
             height={300}
           />
           <p className="text-lg font-semibold text-red-100 md:text-xl">
-            Assistência técnica autorizada de celulares e tablets em São Paulo.
+            Assistência técnica autorizada de celulares e tablets em Santos/SP.
           </p>
           <p className="max-w-xl text-sm md:text-base text-red-100/80">
             Consertamos celulares Samsung, Motorola, Xiaomi, Asus, LG e outras
