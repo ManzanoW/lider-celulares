@@ -24,44 +24,45 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden bg-linear-to-b from-red-700 via-red-800 to-slate-950 pt-20 pb-12 md:pt-32"
+      className="select-none relative overflow-hidden bg-linear-to-b from-red-700 via-red-800 to-slate-950 md:pt-32 md:pb-26"
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-4 py-16 md:flex-row md:items-center md:py-24">
-        <div className="flex-1 space-y-6">
+        <div className="flex-1 space-y-6 ">
           <Image
             src="/lidercelulares-nobg.png"
             alt="Líder Celulares"
             width={300}
             height={300}
+            className="mx-auto w-70 md:w-80 md:animate-pulse md:hover:animate-none md:hover:duration-500 md:hover:ease-in-out md:hover:scale-105 select-none"
           />
-          <p className="text-lg font-semibold text-red-100 md:text-xl">
+          <p className="text-lg text-center font-semibold text-red-100 md:text-xl">
             Assistência técnica autorizada de celulares e tablets em Santos/SP.
           </p>
-          <p className="max-w-xl text-sm md:text-base text-red-100/80">
+          <p className="max-w-xl text-sm text-center md:text-base text-red-100/80">
             Consertamos celulares Samsung, Motorola, Xiaomi, Asus, LG e outras
             marcas, além de tablets e iPads. Troca de telas, conectores,
             sistema, microfone, alto-falantes e muito mais, com rapidez e
             segurança.
           </p>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 justify-center">
             <button
               onClick={() => scrollToId("contact")}
-              className="rounded-full bg-amber-400 px-6 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-amber-500/40 hover:bg-amber-300 transition"
+              className="rounded-full bg-amber-400 px-6 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-amber-500/40 hover:bg-amber-300 transition cursor-pointer"
             >
               Pedir orçamento agora
             </button>
             <button
               onClick={() => scrollToId("services")}
-              className="rounded-full border border-red-200/60 px-6 py-2 text-sm font-semibold text-red-100 hover:bg-red-900/40 transition"
+              className="rounded-full border border-red-200/60 px-6 py-2 text-sm font-semibold text-red-100 hover:bg-red-900/40 transition cursor-pointer"
             >
               Ver serviços
             </button>
           </div>
-          <p className="text-xs text-red-100/70">
+          <p className="text-xs text-red-100/70 text-center">
             Consertos no mesmo dia em diversos casos. Consulte modelos e prazos.
           </p>
           <span
-            className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold ${
+            className={`flex flex-row items-center justify-center gap-1.5  rounded-full px-3 py-1 text-xs font-semibold md:text-sm  ${
               isOpen()
                 ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30"
                 : "bg-red-500/20 text-red-400 border border-red-500/30"
@@ -82,7 +83,7 @@ export function Hero() {
               alt="Líder Celulares"
               width={400}
               height={400}
-              className="rounded-3xl object-cover"
+              className="rounded-3xl object-cover select-none"
             />
           </div>
         </div>

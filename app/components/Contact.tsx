@@ -91,7 +91,7 @@ export function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full rounded-full bg-amber-400 px-6 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-amber-500/40 hover:bg-amber-300 transition"
+              className="w-full rounded-full bg-amber-400 px-6 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-amber-500/40 hover:bg-amber-300 transition cursor-pointer"
             >
               Enviar mensagem
             </button>

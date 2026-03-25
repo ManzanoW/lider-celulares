@@ -5,7 +5,7 @@ export function About() {
       id="about"
       className="bg-slate-950 px-4 py-16 border-t border-slate-800"
     >
-      <div className="mx-auto max-w-5xl md:flex md:items-start md:gap-10">
+      <div className="mx-auto max-w-5xl md:flex md:items-start md:gap-10 ">
         <div className="flex-1">
           <h2 className="text-2xl font-semibold md:text-3xl">
             Sobre a Líder Celulares

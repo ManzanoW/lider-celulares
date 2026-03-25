@@ -35,7 +35,7 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50  ease-in-out  ${
+      className={`fixed top-0 left-0 right-0 z-50 select-none ease-in-out  ${
         scrolled
           ? "bg-slate-950/95 backdrop-blur-md shadow-lg shadow-black/40 border-b border-slate-800"
           : "bg-transparent"
@@ -62,14 +62,14 @@ export function Navbar() {
             <button
               key={link.href}
               onClick={() => handleNav(link.href)}
-              className="text-sm font-medium text-slate-300 hover:text-amber-400 transition-colors"
+              className="text-sm font-medium text-slate-300 hover:text-amber-400 transition-colors cursor-pointer"
             >
               {link.label}
             </button>
           ))}
           <button
             onClick={() => handleNav("#contact")}
-            className="rounded-full bg-amber-400 px-4 py-1.5 text-sm font-semibold text-slate-950 hover:bg-amber-300 transition shadow-md shadow-amber-500/30"
+            className="rounded-full bg-amber-400 px-4 py-1.5 text-sm font-semibold text-slate-950 hover:bg-amber-300 transition shadow-md shadow-amber-500/30 cursor-pointer"
           >
             Pedir orçamento
           </button>
