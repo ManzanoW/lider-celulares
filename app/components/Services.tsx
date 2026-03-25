@@ -107,7 +107,7 @@ export function Services() {
                 className="group relative flex flex-col gap-3 rounded-2xl border border-slate-800 bg-slate-900/60 p-4 md:p-6 md:gap-4 md:rounded-3xl hover:border-red-600/50 hover:bg-slate-900 transition-all duration-300 cursor-pointer"
               >
                 {/* Linha glow no topo ao hover */}
-                <div className="absolute inset-x-0 top-0 h-px rounded-t-2xl bg-gradient-to-r from-transparent via-red-500/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-x-0 top-0 h-px rounded-t-2xl bg-linear-to-r from-transparent via-red-500/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                 {/* Topo: ícone + seta */}
                 <div className="flex items-center justify-between">
