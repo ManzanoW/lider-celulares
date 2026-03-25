@@ -20,6 +20,9 @@ const reviews = [
   },
 ];
 
+const reviewsLink =
+  "https://www.google.com/maps/place/LIDER+CONSERTO+DE+CELULAR+E+SMARTPHONES/@-23.985735,-46.2979564,17z/data=!4m8!3m7!1s0x94ce037dfa671337:0xccac461ed6138897!8m2!3d-23.985735!4d-46.2953815!9m1!1b1!16s%2Fg%2F1q63cmbwd?entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D";
+
 export function Reviews() {
   return (
     <section
@@ -91,7 +94,7 @@ export function Reviews() {
         {/* Link para ver todas no Google */}
         <div className="mt-6 flex justify-center">
           <a
-            href="https://maps.google.com/?q=Lider+Celulares+Santos"
+            href={reviewsLink}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-900 px-5 py-2 text-xs font-medium text-slate-300 hover:border-amber-400/50 hover:text-amber-400 transition-all duration-300"

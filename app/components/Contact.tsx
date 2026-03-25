@@ -3,6 +3,9 @@ export function Contact() {
   const whatsappLink =
     "https://wa.me/5513974208788?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20conserto%20de%20celular.";
 
+  const mapsLink =
+    "https://www.google.com/maps/place/LIDER+CONSERTO+DE+CELULAR+E+SMARTPHONES/@-23.985735,-46.2979564,17z/data=!4m15!1m8!3m7!1s0x94ce021a000df4cf:0xa052497bfb1b11fb!2sP%C3%A7a.+ALM.+Gago+Coutinho,+30+-+Ponta+da+Praia,+Santos+-+SP,+11030-200!3b1!8m2!3d-23.985735!4d-46.2953815!16s%2Fg%2F11nntq6r7y!3m5!1s0x94ce037dfa671337:0xccac461ed6138897!8m2!3d-23.985735!4d-46.2953815!16s%2Fg%2F1q63cmbwd?entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D";
+
   return (
     <section
       id="contact"
@@ -128,7 +131,7 @@ export function Contact() {
           {/* Botão abrir no Maps */}
           <div className="mt-4 flex justify-end">
             <a
-              href="https://maps.google.com/?q=Pça.+ALM.+Gago+Coutinho,+30,+Ponta+da+Praia,+Santos+-+SP"
+              href={mapsLink}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-900 px-4 py-2 text-xs font-medium text-slate-300 hover:border-red-600/50 hover:text-white transition-all duration-300"
