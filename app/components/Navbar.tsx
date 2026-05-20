@@ -52,7 +52,7 @@ export function Navbar() {
             alt="Líder Celulares"
             width={100}
             height={40}
-            className={`h-10 sm:h-12 w-auto object-contain opacity-0 ${scrolled ? "opacity-100" : ""} transition-opacity duration-300 ease-in-out`}
+            className={`h-10 sm:h-12 w-auto object-contain opacity-0 ${scrolled ? "opacity-100" : ""} transition-opacity duration-300 ease-in-out hover:pointer`}
           />
         </button>
 
